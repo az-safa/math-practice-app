@@ -29,4 +29,9 @@ public class Problem {
 	public int getDifficulty() {
 		return this.difficulty;
 	}
+	
+	public boolean isCorrect(int studentAnswer) {
+		return this.answer == studentAnswer;
+	}
+	
 }
